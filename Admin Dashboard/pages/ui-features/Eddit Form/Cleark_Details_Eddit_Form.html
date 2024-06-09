@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Divisional Secretariat - Kotapola</title>
+    <link rel="stylesheet" href="../../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../../assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="shortcut icon" href="../../../assets/images/favicon.png" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+      <!-- partial:partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="index.html"><img src="../../../assets/images/logo.png" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../../../assets/images/logo-mini.png" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-img">
+                  <img src="../../../assets/images/faces/face1.jpg" alt="image">
+                  <span class="availability-status online"></span>
+                </div>
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">Kanishka Dilshan</p>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
+              </div>
+            </li>
+            <li class="nav-item d-none d-lg-block full-screen-link">
+              <a class="nav-link">
+                <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_sidebar.html -->
+
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-profile">
+              <a href="#" class="nav-link">
+                <div class="nav-profile-image">
+                  <img src="../../../assets/images/faces/face1.jpg" alt="profile">
+                  <span class="login-status online"></span>
+                  <!--change to offline or busy as needed-->
+                </div>
+                <div class="nav-profile-text d-flex flex-column">
+                  <span class="font-weight-bold mb-2">Kanishka dilshan</span>
+                  <span class="text-secondary text-small"><b>Admin</b></span>
+                </div>
+                <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./../../../index.html">
+                <span class="menu-title">Admin Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_05" aria-expanded="false" aria-controls="ui-basic_05">
+                <span class="menu-title">සැකසුම්</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-settings  menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_05">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../Setting/Vision and Mission.html"><b> දැක්ම සහ මෙහෙවර</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="../Setting/Contrac details.html"><b> සම්බන්ධතා විස්තර</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="../Setting/About Land.html"><b>ඉඩම් අංශය ගැන</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../User profile.html">
+                <span class="menu-title"><b>පරිශීලක පැතිකඩ</b></span>
+                <i class="mdi mdi-ticket-account menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_01" aria-expanded="false" aria-controls="ui-basic_01">
+                <span class="menu-title">ලියාපදිංචි කිරීමේ පෝරම</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-account-box-outline  menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_01">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../Cleark_Register_Form.html"><b>විෂය ලිපිකරුවන්</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="../Addmin_Register_Form.html"><b>පරිපාලක</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../Subject_Files.html">
+                <span class="menu-title">විෂය ගොනු ලේඛනය</span>
+                <i class="mdi mdi-arrange-bring-to-front menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_04" aria-expanded="false" aria-controls="ui-basic_04">
+                <span class="menu-title">ගිණුම් විස්තර</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-animation menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_04">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../Cleark_Details.html"><b>විෂය ලිපිකරු තොරතුරු</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="../Addmin_Details.html"><b>පරිපාලක තොරතුරු</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+        </nav>
+        <!-- partial -->
+
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+
+  <div class="alert alert-danger">
+    <strong><b>අවවාදයයි!</b> </strong> මෙම පෝරමය භාවිතා කර අදාල <b><u>වෙනස් කිරිම්</u></b> පමණක් කරන්න.
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2><center><u><b>විෂය ලිපිකරු තොරතුරු<br> සංස්කරණය කිරීමේ පෝරමය.</b></u></center></h2><br>
+        <form id="cleark_register_form" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group required">
+                <label for="Cleark_Deta_Eddi_Sub no"> අනු අංකය:</label>
+                <input type="number" class="form-control" id="Cleark_Deta_Eddi_Sub no" min="1">
+              </div>
+
+                <label for="Cleark_Last_Name">අවසන් නම:</label>
+                <input type="text" class="form-control" id="Cleark_Deta_Eddi_Last_Name" maxlength="100">
+                <div class="invalid-feedback">අවසන් නම ඇතුළත් කරන්න.</div>
+              </div>
+
+            <div class="col-md-6">
+              <div class="form-group required">
+                <label for="Cleark_First_Name">මුල් නම:</label>
+                <input type="text" class="form-control" id="Cleark_Deta_Eddi_Fir_Name"  maxlength="100">
+                <div class="invalid-feedback">මුල් නම ඇතුළත් කරන්න.</div>
+              </div>
+
+              <div class="form-group required">
+                <label for="Cleark_Service_No">සේවා  අංකය:</label>
+                <input type="text" class="form-control" id="Cleark_Deta_Eddi_Serv_Num" pattern="^[2-6](-[AB])?$" placeholder="2-A">
+                <div class="invalid-feedback">සේවා  අංකය ඇතුළත් කරන්න.</div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group required">
+                <label for="Cleark_Email">ඊතැපැල් ලිපිනය:</label>
+                <input type="email" class="form-control" id="Cleark_Deta_Eddi_Email" placeholder="example@gmail.com">
+                <div class="invalid-feedback">ඊතැපැල් ලිපිනය ඇතුළත් කරන්න.</div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group required">
+                <label for="Addmin_Phone_Num">දුරකථන අංකය:</label>
+                <input type="text" class="form-control" id="Addmin_Details_Eddit_Phone_Num"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="071-xxx-xxxx">
+                <div class="invalid-feedback">දුරකථන අංකය ඇතුළත් කරන්න.</div>
+              </div>
+            </div>
+
+          </div>
+
+         <button type="button" class="btn btn-primary" data-bs-toggle="popover"  data-bs-placement="left" data-bs-content="සත්‍ය තොරතුරු පමණක් භාවිතා කරන්න." onclick="validateForm()" style="height: 53px; width: 195px;" > save changes  <i class="mdi mdi-floppy btn-icon-append"></i>
+          </button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div class="image-container">
+           <img src="../../../assets/images/form/Eddit.jpg" alt="Eddit details Form Pictures" width="340px" height="300px" style="margin: 100px auto; display: block; border-radius: 10%;">
+        </div>
+      </div>
+    </div>
+  </div>
+                  </div>
+                </div>
+              </div>
+
+          <footer class="footer">
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">© Copyright <b>Divisional Secretariat.</b> All Rights Reserved.</span>
+              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Designed by <a href="http://kotapola.ds.gov.lk/index.php/en/" target="_blank">Divisional Secretariat </a>Kotapola.</span>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="../../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../../assets/js/off-canvas.js"></script>
+    <script src="../../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../../assets/js/misc.js"></script>
+  <script>
+    function togglePassword(id) {
+      var x = document.getElementById(id);
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+
+    function validateForm() {
+      var form = document.getElementById('cleark_register_form');
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }
+  </script>
+  </body>
+</html>

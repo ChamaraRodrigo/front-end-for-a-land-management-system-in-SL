@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Divisional Secretariat - Kotapola</title>
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+    <link rel="stylesheet" href="my_style.css.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assetses/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assetses/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!----------------------------<link href="assetses/css/style.css" rel="stylesheet"> ---------------------------for delete------------------------------>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.example {
+  width : 900px;
+  overflow-x: scroll; /* Add the ability to scroll */
+}
+
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: 2px;  /* IE and Edge */
+  scrollbar-width: 2px;  /* Firefox */
+}
+</style>
+
+  </head>
+  <body>
+      <!-- partial:partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="index.html"><img src="../../assets/images/logo.png" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../../assets/images/logo-mini.png" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-img">
+                  <img src="../../assets/images/faces/face1.jpg" alt="image">
+                  <span class="availability-status online"></span>
+                </div>
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">Kanishka Dilshan</p>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
+              </div>
+            </li>
+            <li class="nav-item d-none d-lg-block full-screen-link">
+              <a class="nav-link">
+                <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_sidebar.html -->
+
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-profile">
+              <a href="#" class="nav-link">
+                <div class="nav-profile-image">
+                  <img src="../../assets/images/faces/face1.jpg" alt="profile">
+                  <span class="login-status online"></span>
+                  <!--change to offline or busy as needed-->
+                </div>
+                <div class="nav-profile-text d-flex flex-column">
+                  <span class="font-weight-bold mb-2">Kanishka dilshan</span>
+                  <span class="text-secondary text-small"><b>Admin</b></span>
+                </div>
+                <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">
+                <span class="menu-title">Admin Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_05" aria-expanded="false" aria-controls="ui-basic_05">
+                <span class="menu-title">සැකසුම්</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-settings  menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_05">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="Setting/Vision and Mission.html"><b> දැක්ම සහ මෙහෙවර</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="Setting/Contrac details.html"><b> සම්බන්ධතා විස්තර</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="Setting/About Land.html"><b>ඉඩම් අංශය ගැන</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./User profile.html">
+                <span class="menu-title"><b>පරිශීලක පැතිකඩ</b></span>
+                <i class="mdi mdi-ticket-account menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_01" aria-expanded="false" aria-controls="ui-basic_01">
+                <span class="menu-title">ලියාපදිංචි කිරීමේ පෝරම</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-account-box-outline  menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_01">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="./Cleark_Register_Form.html"><b>විෂය ලිපිකරුවන්</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="./Addmin_Register_Form.html"><b>පරිපාලක</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./Subject_Files.html">
+                <span class="menu-title">විෂය ගොනු ලේඛනය</span>
+                <i class="mdi mdi-arrange-bring-to-front menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_04" aria-expanded="false" aria-controls="ui-basic_04">
+                <span class="menu-title">ගිණුම් විස්තර</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-animation menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_04">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="./Cleark_Details.html"><b>විෂය ලිපිකරු තොරතුරු</b></a></li>
+                 <li class="nav-item"> <a class="nav-link" href="./Addmin_Details.html"><b>පරිපාලක තොරතුරු</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+        </nav>
+        <!-- partial -->
+
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3><b> විෂය ලිපිකරු තොරතුරු </b></h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">වාර්තා</li>
+                  <li class="breadcrumb-item active" aria-current="page"><a href="">විෂය ලිපිකරු තොරතුරු</a></li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+
+  <!-- ======= Header ======= -->
+  <main id="main" class="main">
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+
+           <div class="table-responsive">
+              <!-- Table with stripped rows -->
+            <table id="dataTable" class="table table-striped datatable">
+                <thead>
+                  <tr>
+                    <th>අනු අංකය</th>
+                    <th>
+                      <b> මුල් නම</b>
+                    </th>
+                    <th>අවසන් නම</th>
+                    <th>සේවා  අංකය</th>
+                    <th>ඊතැපැල් ලිපිනය</th>
+                    <th>දුරකථන අංකය</th>
+                    <th>ලියාපදිංචි වු දිනය<br> සහ වේලාව</th>
+                    <th>තත්ත්වය</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>ShahRukh</td>
+                    <td>Khan</td>
+                    <td>1</td>
+                    <td>ShahRukh@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Salman</td>
+                    <td>Khan</td>
+                    <td>2</td>
+                    <td>Salman@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Amita</td>
+                    <td>Bachchan</td>
+                    <td>3</td>
+                    <td>Amita@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Bobby</td>
+                    <td>Deol</td>
+                    <td>3</td>
+                    <td>Deol@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Priyanka</td>
+                    <td>Chopra</td>
+                    <td>4</td>
+                    <td>Chopra@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Kareena</td>
+                    <td>Kapoor</td>
+                    <td>4</td>
+                    <td>Kareena@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Anushka</td>
+                    <td>Sharma</td>
+                    <td>5</td>
+                    <td>Sharma@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Suniel</td>
+                    <td>Shetty</td>
+                    <td>5</td>
+                    <td>Suniel@gmail.com</td>
+                    <td>071-037-8253</td>
+                    <td>04/03/2022  11.24p.m</td>
+                    <td>                            
+                           <button type="button" class="btn btn-gradient-danger btn-icon-text" style="margin-right: 10px;">
+                           <i class="mdi mdi-bitbucket"></i> Delete </button>
+                          <a href="Eddit Form/Cleark_Details_Eddit_Form.html" target="_blank">
+                          <button type="button" class="btn btn-gradient-success btn-icon-text"  style="margin-right: 10px;">
+                            <i class="mdi mdi-pencil"></i> Eddit </button>
+                           </button> 
+                          </a>
+                   </td>
+                  </tr>
+                </tbody>
+              </table>
+</div><br>
+              <!-- End Table with stripped rows -->
+                         <center>
+                          <button type="button" class="btn btn-gradient-info btn-icon-text rounded-pill" id="downloadExcelBtn" style="width: 230px; height: 50px;">
+                            <i class="mdi mdi-arrow-down-bold"></i> Download Table </button>
+                           </button>
+                         <center>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+                  </div>
+                </div>
+              </div>
+
+          <footer class="footer">
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">© Copyright <b>Divisional Secretariat.</b> All Rights Reserved.</span>
+              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Designed by <a href="http://kotapola.ds.gov.lk/index.php/en/" target="_blank">Divisional Secretariat </a>Kotapola.</span>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assetses/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assetses/vendor/tinymce/tinymce.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assetses/js/main.js"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- SheetJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+<!-- FileSaver.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#downloadExcelBtn').click(function(){
+      // Convert table to Excel
+      var table = document.getElementById('dataTable');
+      var wb = XLSX.utils.table_to_book(table, {sheet:"Sheet JS"});
+      var wbout = XLSX.write(wb, {bookType:'xlsx',  type: 'binary'});
+
+      // Save as Excel file
+      function s2ab(s) {
+        var buf = new ArrayBuffer(s.length);
+        var view = new Uint8Array(buf);
+        for (var i=0; i<s.length; i++) view[i] = s.charCodeAt(i) & 0xFF;
+        return buf;
+      }
+      saveAs(new Blob([s2ab(wbout)],{type:"application/octet-stream"}), 'විෂය ලිපිකරු තොරතුරු.xlsx');
+    });
+  });
+</script>
+  </body>
+</html>

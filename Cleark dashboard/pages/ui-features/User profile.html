@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Divisional Secretariat - Kotapola</title>
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+<!-----------------------------new add------------------------------------------------------>
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+<!-----------------------------new add end------------------------------------------------------>
+
+  </head>
+  <body>
+      <!-- partial:partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="index.html"><img src="../../assets/images/logo.png" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../../assets/images/logo-mini.png" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-img">
+                  <img src="../../assets/images/faces/face1.jpg" alt="image">
+                  <span class="availability-status online"></span>
+                </div>
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">Kanishka Dilshan</p>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
+              </div>
+            </li>
+            <li class="nav-item d-none d-lg-block full-screen-link">
+              <a class="nav-link">
+                <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_sidebar.html -->
+
+
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-profile">
+              <a href="#" class="nav-link">
+                <div class="nav-profile-image">
+                  <img src="../../assets/images/faces/face1.jpg" alt="profile">
+                  <span class="login-status online"></span>
+                  <!--change to offline or busy as needed-->
+                </div>
+                <div class="nav-profile-text d-flex flex-column">
+                  <span class="font-weight-bold mb-2">Kanishka dilshan</span>
+                  <span class="text-secondary text-small"><b> Cleark </b></span>
+                </div>
+                <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
+              </a>
+            </li>
+
+    <li class="nav-item">
+              <a class="nav-link" href="./../../index.html">
+                <span class="menu-title">Clerk Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/ui-features/User profile.html">
+                <span class="menu-title"><b>පරිශීලක පැතිකඩ</b></span>
+                <i class="mdi mdi-ticket-account menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_03" aria-expanded="false" aria-controls="ui-basic_03">
+                <span class="menu-title">අලුතින් ආරම්භ වන ගොනු <br>ලියාපදිංචි කිරීමේ පෝරම</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-book-open-page-variant menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_03">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open form/Subject_2,3,4,5_newly_open_Form.html"><b>මුල් අයිතිය පැවරීම<br>පසු අයිතිය පැවරීම<br>නොතාරිස් පැවරීම<br>මැනුම් අවසර</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open form/Subject_6_newly_open_Form.html"><b>මධ්‍යම පාන්තික ඉඩම්</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open form/Subject_6_A_newly_open_Form.html"><b>ඉඩම් කච්චේරි</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open form/Subject_6_B_newly_open_Form.html"><b>දීමනාපත්‍ර/බලපත්‍ර සකස් කිරීම</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open form/Subject_1_newly_open_Form.html"><b>ඉඩම් අත්පත්කරගැනීම</b></a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic_07" aria-expanded="false" aria-controls="ui-basic_07">
+                <span class="menu-title">අලුතින් ආරම්භ වූ<br> ගොනු තොරතුරු</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-buffer menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic_07">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Sub_2,3,4,5_මුල් අයිතිය පැවරීම්.html"><b>මුල් අයිතිය පැවරීම</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Subject_2,3,4,5 - පසු අයිතිය පැවරීම්.html"><b>පසු අයිතිය පැවරීම</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Subject_2,3,4,5 - නොතාරිස් පැවරුම්.html"><b>නොතාරිස් පැවරීම</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Subject_2,3,4,5 - මැනුම් අවසර.html"><b>මැනුම් අවසර</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Subject_6.html"><b>මධ්‍යම පාන්තික ඉඩම්</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Subject_6 - A.html"><b>ඉඩම් කච්චේරි</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Subject_6 - B.html"><b>දීමනාපත්‍ර/බලපත්‍ර සකස් කිරීම</b></a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/Newly open file_details/Sub_1_ඉඩම් අත්පත්කරගැනීම.html"><b>ඉඩම් අත්පත්කරගැනීම</b></a></li>
+                </ul>
+              </div>
+            </li>
+            </li>
+
+                </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                               <!--------------------add to details------------------------------------------>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>V.K.K.Dilshan</h6>
+              <span>officer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+  <main id="main" class="main">     
+
+    <section class="section profile">
+      <div class="row">
+        <div class="col-xl-4">
+
+          <div class="card">
+            <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+
+              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+              <h2>V.K.K.Dilshan</h2>
+              <h3>Officer</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-8">
+
+          <div class="card">
+            <div class="card-body pt-3">
+              <!-- Bordered Tabs -->
+              <ul class="nav nav-tabs nav-tabs-bordered">
+
+                <li class="nav-item">
+                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview">Overview</button>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-edit">Edit Profile</button>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Change Password</button>
+                </li>
+
+              </ul>
+
+              <div class="tab-content pt-2">
+
+                <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                  <h5 class="card-title">Profile Details</h5>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label "><b>සම්පූර්ණ නම </b></div>
+                    <div class="col-lg-9 col-md-8">V.K.K.Dilshan</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">දුරකථන අංකය</div>
+                    <div class="col-lg-9 col-md-8">0710378253</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">විද්‍යුත් තැපැල් ලිපිනය</div>
+                    <div class="col-lg-9 col-md-8">vkkdilshan@gmail.com</div>
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade profile-edit pt-3" id="profile-edit">
+
+                  <!-- Profile Edit Form -->
+                  <form>
+                    <div class="row mb-3">
+                      <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Profile Image</label>
+                      <div class="col-md-8 col-lg-9">
+                        <img src="assets/img/profile-img.jpg" alt="Profile">
+                        <div class="pt-2">
+                          <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+                          <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="fullName" class="col-md-4 col-lg-3 col-form-label">සම්පූර්ණ නම</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="fullName" type="text" class="form-control" id="fullName" value="V.K.K.Dilshan">
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="Phone" class="col-md-4 col-lg-3 col-form-label">දුරකථන අංකය</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="phone" type="text" class="form-control" id="Phone" value="0710378253" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="Email" class="col-md-4 col-lg-3 col-form-label">විද්‍යුත් තැපැල් ලිපිනය</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="email" type="email" class="form-control" id="Email" value="vkkdilshan@gmail.com">
+                      </div>
+                    </div>
+
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                  </form><!-- End Profile Edit Form -->
+
+                </div>
+
+                <div class="tab-pane fade pt-3" id="profile-settings">
+
+
+                </div>
+
+                <div class="tab-pane fade pt-3" id="profile-change-password">
+                  <!-- Change Password Form -->
+                  <form>
+
+                    <div class="row mb-3">
+                      <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Current Password</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="password" type="password" class="form-control" id="currentPassword">
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">New Password</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="newpassword" type="password" class="form-control" id="newPassword">
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="renewPassword" class="col-md-4 col-lg-3 col-form-label">Re-enter New Password</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="renewpassword" type="password" class="form-control" id="renewPassword">
+                      </div>
+                    </div>
+
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary">Change Password</button>
+                    </div>
+                  </form><!-- End Change Password Form -->
+
+                </div>
+
+              </div><!-- End Bordered Tabs -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main><!-- End #main -->
+                               <!--------------------add to details------------------------------------------>
+
+                  </div>
+                </div>
+              </div>
+
+          <footer class="footer">
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">© Copyright <b>Divisional Secretariat.</b> All Rights Reserved.</span>
+              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Designed by <a href="http://kotapola.ds.gov.lk/index.php/en/" target="_blank">Divisional Secretariat </a>Kotapola.</span>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+
+  </body>
+</html>
